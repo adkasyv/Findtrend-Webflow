@@ -1,0 +1,24 @@
+@font-face {
+  font-family: '-Regular';
+  src: url("/fonts/______-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Medium';
+  src: url("/fonts/______-Medium.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Bold';
+  src: url("/fonts/______-Bold.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Italic';
+  src: url("/fonts/______-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
