@@ -1,3 +1,27 @@
+@font-face {
+  font-family: '-Regular';
+  src: url("/fonts/______-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Medium';
+  src: url("/fonts/______-Medium.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Bold';
+  src: url("/fonts/______-Bold.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: '-Italic';
+  src: url("/fonts/______-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background-color: #fff;
   min-height: 100vh;
@@ -70,4 +94,11 @@ a {
   padding: 0 15px;
   margin: 0 auto;
   overflow: hidden;
+}
+header p {
+  color: #000;
+}
+header p header-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
