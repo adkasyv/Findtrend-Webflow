@@ -64,6 +64,9 @@ a {
   color: #fff;
   text-decoration: none;
 }
+.section {
+  padding: 3em 0;
+}
 .container {
   width: 100%;
   max-width: 1170px;

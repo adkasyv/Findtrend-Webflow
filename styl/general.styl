@@ -4,12 +4,79 @@
 //======================================
 
 // header
-header p
-  color color-second
-  header-inner
+// header p
+//    color-second
+header
+  background-color color-second
+  p, li
+    color color-main
+.header-inner // ! поиграть с grid 
+  display grid
+  grid-template-columns minmax(max-content, 300px) minmax(150px, 1fr) 150px
+  // grid-template-columns minmax(100px, 3fr)
+  padding 0 3em
+  grid-gap 1em
+  .ul 
     display grid
-    grid-template-columns 1fr 1fr 1fr 1fr
+    grid-template-columns 1fr 1fr 1fr 1fr 1fr
+
+  form 
+    display grid
+    grid-template-columns 1fr 1fr
+
 // section.content
+.main
+  background-color color-second
+  height 900px
+  min-height:100vh
+  .main-inner
+    text-align center
+    // display grid
+    // place-items center
+
+    .main-top
+      display grid
+      gap 3em
+      justify-items center
+
+      padding 5em 0 20em 0
+    .main-bottom
+      .main-design 
+        display grid
+        grid-template-columns 1fr 1fr 1fr 1fr
+        p
+          background-color #181818
+          padding 1em 0
+          margin 0 1em
+
+.about
+  background-color color-third
+.about2
+  background-color color-main
+  p
+    color color-second
+.about3
+  background-color color-main
+  p
+    color color-second
+.social
+  background-color color-main
+  p
+    color color-second
+.price
+  background-color color-third
+.join
+  background-color color-main
+  p
+    color color-second
 
 
 // footer
+.footer-inner 
+  display grid
+  grid-template-columns 1fr 1fr 
+  
+  // grid-gap 1em
+  // .ul 
+  //   display grid
+  //   grid-template-columns 1fr 1fr 1fr 1fr
