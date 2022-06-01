@@ -133,6 +133,10 @@ header li {
   justify-items: center;
   padding: 5em 0 20em 0;
 }
+.main .main-inner .main-top .main-button {
+  padding: 1rem 2.2rem;
+  border-radius: 2rem;
+}
 .main .main-inner .main-bottom .main-design {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
